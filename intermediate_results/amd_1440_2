@@ -1,0 +1,497 @@
+WARNING: Passed an invalid value -nan to device constant AC_dt. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_dsmin. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_xlen. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_ylen. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_zlen. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_xorig. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_yorig. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_zorig. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_unit_magnetic. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_star_pos_x. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_star_pos_y. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_star_pos_z. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_M_star. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_M_sink. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_M_sink_init. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_cv_sound. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_trans. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_boundary_derivative. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_chi_t. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_chi_t_prof1. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_angl_uu. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_lnrho_edge. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_lnrho_out. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_ampl_aa. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_init_k_wave. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_init_sigma_hel. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_switch_forcing. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_forcing_phase. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_k_forcex. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_k_forcey. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_k_forcez. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_kaver. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_ff_hel_rex. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_ff_hel_rey. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_ff_hel_rez. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_ff_hel_imx. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_ff_hel_imy. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_ff_hel_imz. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_G_const. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_GM_star. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_unit_mass. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_sq2GM_star. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_cs2_sound. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_current_time. Skipping.
+Num fields 10
+Searching field VTXBUF_LNRHO. Got 0 (VTXBUF_LNRHO)
+Searching field VTXBUF_UUX. Got 1 (VTXBUF_UUX)
+Searching field VTXBUF_UUY. Got 2 (VTXBUF_UUY)
+Searching field VTXBUF_UUZ. Got 3 (VTXBUF_UUZ)
+Searching field VTXBUF_AX. Got 4 (VTXBUF_AX)
+Searching field VTXBUF_AY. Got 5 (VTXBUF_AY)
+Searching field VTXBUF_AZ. Got 6 (VTXBUF_AZ)
+Searching field BFIELDX. Got 7 (BFIELDX)
+Searching field BFIELDY. Got 8 (BFIELDY)
+Searching field BFIELDZ. Got 9 (BFIELDZ)
+Config file path: /home/username/temp_astaroth/rfnhjvvhhvghdbacjrurkmyr/config/astaroth.conf
+--------------------------------------------------
+Device Number: 0
+  PCI bus ID: 0000:23:00.0
+    Device name: AMD Instinct MI100
+    Compute capability: 9.0
+  Compute
+    Clock rate (GHz): 1.502
+    Stream processors: 120
+    Compute mode: 0
+  Global memory
+    Memory Clock Rate (MHz): 1200
+    Memory Bus Width (bits): 4096
+    Peak Memory Bandwidth (GiB/s): 1144.409180
+    ECC enabled: 0
+    Total global mem: 31.98 GiB
+    Gmem used (GiB): 1.29
+    Gmem memory free (GiB): 30.70
+    Gmem memory total (GiB): 31.98
+  Caches
+    L2 size: 8192 KiB
+  Other
+    Warp size: 64
+    AcReal precision: 64 bits
+--------------------------------------------------
+---Test: Load/Store---
+Errors at the point of the maximum absolute error:
+VTXBUF_LNRHO   ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [3.34e-07, 1]
+VTXBUF_UUX     ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [2.91e-07, 1]
+VTXBUF_UUY     ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [1.34e-07, 1]
+VTXBUF_UUZ     ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [0, 1]
+VTXBUF_AX      ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [1.58e-08, 1]
+VTXBUF_AY      ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [1.28e-07, 1]
+VTXBUF_AZ      ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [2.65e-07, 1]
+BFIELDX        ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [3.12e-08, 1]
+BFIELDY        ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [2.39e-07, 1]
+BFIELDZ        ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [8.38e-09, 1]
+---Test: Boundconds---
+Errors at the point of the maximum absolute error:
+VTXBUF_LNRHO   ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [3.34e-07, 1]
+VTXBUF_UUX     ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [2.91e-07, 1]
+VTXBUF_UUY     ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [1.34e-07, 1]
+VTXBUF_UUZ     ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [0, 1]
+VTXBUF_AX      ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [1.58e-08, 1]
+VTXBUF_AY      ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [1.28e-07, 1]
+VTXBUF_AZ      ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [2.65e-07, 1]
+BFIELDX        ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [3.12e-08, 1]
+BFIELDY        ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [2.39e-07, 1]
+BFIELDZ        ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [8.38e-09, 1]
+||AT|| (64, 1, 1) 132.373767
+||AT|| (192, 1, 1) 127.516748
+||AT|| (32, 2, 1) 127.549402
+||AT|| (64, 2, 1) 126.314954
+||AT|| (96, 2, 1) 123.547375
+||AT|| (192, 2, 1) 119.613647
+||AT|| (64, 3, 1) 121.966675
+||AT|| (192, 3, 1) 123.672339
+||AT|| (16, 4, 1) 126.983447
+||AT|| (32, 4, 1) 118.704065
+||AT|| (48, 4, 1) 117.182825
+||AT|| (64, 4, 1) 119.161414
+||AT|| (96, 4, 1) 114.904968
+||AT|| (192, 4, 1) 111.744861
+||AT|| (32, 6, 1) 116.984216
+||AT|| (64, 6, 1) 114.910217
+||AT|| (96, 6, 1) 122.613208
+||AT|| (8, 8, 1) 126.034717
+||AT|| (16, 8, 1) 119.895752
+||AT|| (24, 8, 1) 117.260278
+||AT|| (32, 8, 1) 115.063232
+||AT|| (48, 8, 1) 115.791919
+||AT|| (64, 8, 1) 110.604846
+||AT|| (96, 8, 1) 111.009656
+||AT|| (16, 12, 1) 118.610803
+||AT|| (32, 12, 1) 115.595422
+||AT|| (48, 12, 1) 119.570654
+||AT|| (64, 12, 1) 110.644006
+||AT|| (16, 16, 1) 116.751074
+||AT|| (24, 16, 1) 116.679468
+||AT|| (32, 16, 1) 110.981824
+||AT|| (48, 16, 1) 110.871680
+||AT|| (64, 16, 1) 105.196240
+||AT|| (24, 24, 1) 119.945300
+||AT|| (32, 24, 1) 110.958020
+||AT|| (32, 32, 1) 105.540845
+||AT|| (32, 1, 2) 123.812769
+||AT|| (64, 1, 2) 121.557092
+||AT|| (96, 1, 2) 119.349768
+||AT|| (192, 1, 2) 122.191479
+||AT|| (16, 2, 2) 121.159253
+||AT|| (32, 2, 2) 120.118542
+||AT|| (48, 2, 2) 115.772144
+||AT|| (64, 2, 2) 114.248303
+||AT|| (96, 2, 2) 114.546753
+||AT|| (192, 2, 2) 116.226099
+||AT|| (32, 3, 2) 114.678271
+||AT|| (64, 3, 2) 113.574036
+||AT|| (96, 3, 2) 125.564917
+||AT|| (8, 4, 2) 121.448401
+||AT|| (16, 4, 2) 116.665735
+||AT|| (24, 4, 2) 114.517749
+||AT|| (32, 4, 2) 111.981311
+||AT|| (48, 4, 2) 112.046912
+||AT|| (64, 4, 2) 108.464014
+||AT|| (96, 4, 2) 111.853503
+||AT|| (16, 6, 2) 117.601941
+||AT|| (32, 6, 2) 112.260388
+||AT|| (48, 6, 2) 123.370239
+||AT|| (64, 6, 2) 111.662036
+||AT|| (8, 8, 2) 118.472583
+||AT|| (12, 8, 2) 115.740442
+||AT|| (16, 8, 2) 112.862354
+||AT|| (24, 8, 2) 112.295288
+||AT|| (32, 8, 2) 108.428088
+||AT|| (48, 8, 2) 110.478503
+||AT|| (64, 8, 2) 103.908154
+||AT|| (16, 12, 2) 113.597058
+||AT|| (24, 12, 2) 120.985303
+||AT|| (32, 12, 2) 110.468188
+||AT|| (16, 16, 2) 109.429895
+||AT|| (24, 16, 2) 110.668579
+||AT|| (32, 16, 2) 104.576331
+||AT|| (64, 1, 3) 118.415796
+||AT|| (192, 1, 3) 138.040149
+||AT|| (32, 2, 3) 117.169531
+||AT|| (64, 2, 3) 114.924707
+||AT|| (96, 2, 3) 128.123816
+||AT|| (64, 3, 3) 125.272925
+||AT|| (16, 4, 3) 113.816638
+||AT|| (32, 4, 3) 111.308398
+||AT|| (48, 4, 3) 123.606689
+||AT|| (64, 4, 3) 112.817981
+||AT|| (32, 6, 3) 123.503125
+||AT|| (8, 8, 3) 115.632739
+||AT|| (16, 8, 3) 112.688855
+||AT|| (24, 8, 3) 123.635632
+||AT|| (32, 8, 3) 113.242834
+||AT|| (16, 12, 3) 123.830371
+||AT|| (16, 16, 3) 111.423523
+||AT|| (16, 1, 4) 128.522681
+||AT|| (32, 1, 4) 120.350513
+||AT|| (48, 1, 4) 116.802087
+||AT|| (64, 1, 4) 115.370581
+||AT|| (96, 1, 4) 119.784094
+||AT|| (192, 1, 4) 124.039880
+||AT|| (8, 2, 4) 120.668188
+||AT|| (16, 2, 4) 117.027368
+||AT|| (24, 2, 4) 113.901013
+||AT|| (32, 2, 4) 111.713794
+||AT|| (48, 2, 4) 113.399634
+||AT|| (64, 2, 4) 108.729211
+||AT|| (96, 2, 4) 116.666992
+||AT|| (16, 3, 4) 114.222009
+||AT|| (32, 3, 4) 112.518164
+||AT|| (48, 3, 4) 128.039478
+||AT|| (64, 3, 4) 114.442712
+||AT|| (4, 4, 4) 122.308386
+||AT|| (8, 4, 4) 117.023804
+||AT|| (12, 4, 4) 114.222363
+||AT|| (16, 4, 4) 111.531128
+||AT|| (24, 4, 4) 112.483167
+||AT|| (32, 4, 4) 107.069116
+||AT|| (48, 4, 4) 113.283057
+||AT|| (64, 4, 4) 105.515295
+||AT|| (8, 6, 4) 115.108752
+||AT|| (16, 6, 4) 112.290002
+||AT|| (24, 6, 4) 123.957715
+||AT|| (32, 6, 4) 113.330481
+||AT|| (8, 8, 4) 113.230811
+||AT|| (12, 8, 4) 113.148535
+||AT|| (16, 8, 4) 108.062695
+||AT|| (24, 8, 4) 113.482544
+||AT|| (32, 8, 4) 105.883862
+||AT|| (12, 12, 4) 124.390417
+||AT|| (16, 12, 4) 113.734351
+||AT|| (16, 16, 4) 105.085864
+||AT|| (32, 1, 6) 117.218738
+||AT|| (64, 1, 6) 121.137488
+||AT|| (96, 1, 6) 138.666431
+||AT|| (16, 2, 6) 115.074463
+||AT|| (32, 2, 6) 113.873572
+||AT|| (48, 2, 6) 129.002380
+||AT|| (64, 2, 6) 116.820581
+||AT|| (32, 3, 6) 126.373718
+||AT|| (8, 4, 6) 115.453699
+||AT|| (16, 4, 6) 113.309338
+||AT|| (24, 4, 6) 127.139319
+||AT|| (32, 4, 6) 113.601318
+||AT|| (16, 6, 6) 124.522144
+||AT|| (8, 8, 6) 114.762793
+||AT|| (12, 8, 6) 125.712329
+||AT|| (16, 8, 6) 113.778198
+||AT|| (8, 1, 8) 158.095984
+||AT|| (16, 1, 8) 126.368408
+||AT|| (24, 1, 8) 121.969141
+||AT|| (32, 1, 8) 119.690698
+||AT|| (48, 1, 8) 119.946057
+||AT|| (64, 1, 8) 110.631091
+||AT|| (96, 1, 8) 124.524963
+||AT|| (8, 2, 8) 118.545337
+||AT|| (12, 2, 8) 115.830566
+||AT|| (16, 2, 8) 112.962134
+||AT|| (24, 2, 8) 114.155835
+||AT|| (32, 2, 8) 108.067334
+||AT|| (48, 2, 8) 117.195300
+||AT|| (64, 2, 8) 108.391467
+||AT|| (8, 3, 8) 116.236292
+||AT|| (16, 3, 8) 114.743115
+||AT|| (24, 3, 8) 126.517554
+||AT|| (32, 3, 8) 115.344568
+||AT|| (8, 4, 8) 113.439880
+||AT|| (12, 4, 8) 114.290601
+||AT|| (16, 4, 8) 108.220703
+||AT|| (24, 4, 8) 116.194568
+||AT|| (32, 4, 8) 106.390906
+||AT|| (8, 6, 8) 117.359058
+||AT|| (12, 6, 8) 124.890295
+||AT|| (16, 6, 8) 114.229590
+||AT|| (8, 8, 8) 109.844019
+||AT|| (12, 8, 8) 114.469995
+||AT|| (16, 8, 8) 106.879419
+||AT|| (16, 1, 12) 124.261206
+||AT|| (32, 1, 12) 122.323584
+||AT|| (48, 1, 12) 138.753442
+||AT|| (64, 1, 12) 124.043213
+||AT|| (16, 2, 12) 116.715393
+||AT|| (24, 2, 12) 129.359888
+||AT|| (32, 2, 12) 116.957166
+||AT|| (16, 3, 12) 129.829126
+||AT|| (12, 4, 12) 128.231934
+||AT|| (16, 4, 12) 116.721997
+||AT|| (16, 1, 16) 122.864075
+||AT|| (24, 1, 16) 123.454639
+||AT|| (32, 1, 16) 149.325793
+||AT|| (48, 1, 16) 124.328699
+||AT|| (64, 1, 16) 113.760278
+||AT|| (16, 2, 16) 109.816895
+||AT|| (24, 2, 16) 116.717041
+||AT|| (32, 2, 16) 108.795874
+||AT|| (16, 3, 16) 117.941187
+||AT|| (16, 4, 16) 109.028528
+||AT|| (24, 1, 24) 142.940637
+||AT|| (32, 1, 24) 127.658154
+||AT|| (64, 1, 1) 24.057289
+||AT|| (192, 1, 1) 24.361131
+||AT|| (32, 2, 1) 16.399458
+||AT|| (64, 2, 1) 15.857976
+||AT|| (96, 2, 1) 16.212849
+||AT|| (192, 2, 1) 21.120798
+||AT|| (64, 3, 1) 13.660109
+||AT|| (192, 3, 1) 17.773184
+||AT|| (16, 4, 1) 16.438998
+||AT|| (32, 4, 1) 11.588862
+||AT|| (48, 4, 1) 12.072546
+||AT|| (64, 4, 1) 11.109151
+||AT|| (96, 4, 1) 14.232739
+||AT|| (192, 4, 1) 11.788445
+||AT|| (32, 6, 1) 11.628513
+||AT|| (64, 6, 1) 13.677628
+||AT|| (96, 6, 1) 14.515834
+||AT|| (8, 8, 1) 13.951035
+||AT|| (16, 8, 1) 11.118591
+||AT|| (24, 8, 1) 11.318633
+||AT|| (32, 8, 1) 10.574241
+||AT|| (48, 8, 1) 12.228583
+||AT|| (64, 8, 1) 8.576327
+||AT|| (96, 8, 1) 10.180555
+||AT|| (16, 12, 1) 11.285630
+||AT|| (32, 12, 1) 11.997880
+||AT|| (48, 12, 1) 12.164508
+||AT|| (64, 12, 1) 9.257681
+||AT|| (16, 16, 1) 9.030021
+||AT|| (24, 16, 1) 12.168613
+||AT|| (32, 16, 1) 8.436614
+||AT|| (48, 16, 1) 9.345239
+||AT|| (64, 16, 1) 8.072872
+||AT|| (24, 24, 1) 12.339776
+||AT|| (32, 24, 1) 9.388228
+||AT|| (32, 32, 1) 7.724165
+||AT|| (32, 1, 2) 27.332205
+||AT|| (64, 1, 2) 20.431102
+||AT|| (96, 1, 2) 22.360007
+||AT|| (192, 1, 2) 29.540665
+||AT|| (16, 2, 2) 17.566719
+||AT|| (32, 2, 2) 13.916391
+||AT|| (48, 2, 2) 15.012633
+||AT|| (64, 2, 2) 13.390466
+||AT|| (96, 2, 2) 19.453104
+||AT|| (192, 2, 2) 16.293837
+||AT|| (32, 3, 2) 12.748033
+||AT|| (64, 3, 2) 15.975499
+||AT|| (96, 3, 2) 19.072090
+||AT|| (8, 4, 2) 15.399196
+||AT|| (16, 4, 2) 11.849757
+||AT|| (24, 4, 2) 12.258741
+||AT|| (32, 4, 2) 9.710179
+||AT|| (48, 4, 2) 13.661865
+||AT|| (64, 4, 2) 9.316740
+||AT|| (96, 4, 2) 11.416534
+||AT|| (16, 6, 2) 10.586880
+||AT|| (32, 6, 2) 13.512761
+||AT|| (48, 6, 2) 15.930067
+||AT|| (64, 6, 2) 11.283134
+||AT|| (8, 8, 2) 11.853560
+||AT|| (12, 8, 2) 10.591456
+||AT|| (16, 8, 2) 9.410822
+||AT|| (24, 8, 2) 13.143262
+||AT|| (32, 8, 2) 8.826118
+||AT|| (48, 8, 2) 9.442822
+||AT|| (64, 8, 2) 7.539658
+||AT|| (16, 12, 2) 13.208327
+||AT|| (24, 12, 2) 13.568230
+||AT|| (32, 12, 2) 9.477699
+||AT|| (16, 16, 2) 7.424222
+||AT|| (24, 16, 2) 9.538275
+||AT|| (32, 16, 2) 7.592886
+||AT|| (64, 1, 3) 20.743224
+||AT|| (192, 1, 3) 34.693622
+||AT|| (32, 2, 3) 13.945267
+||AT|| (64, 2, 3) 20.331131
+||AT|| (96, 2, 3) 22.769142
+||AT|| (64, 3, 3) 18.697588
+||AT|| (16, 4, 3) 11.812861
+||AT|| (32, 4, 3) 13.794569
+||AT|| (48, 4, 3) 15.545068
+||AT|| (64, 4, 3) 12.106331
+||AT|| (32, 6, 3) 15.768188
+||AT|| (8, 8, 3) 11.704700
+||AT|| (16, 8, 3) 14.598801
+||AT|| (24, 8, 3) 15.850206
+||AT|| (32, 8, 3) 12.121339
+||AT|| (16, 12, 3) 15.987016
+||AT|| (16, 16, 3) 10.596320
+||AT|| (16, 1, 4) 33.435272
+||AT|| (32, 1, 4) 24.663181
+||AT|| (48, 1, 4) 20.718645
+||AT|| (64, 1, 4) 19.575801
+||AT|| (96, 1, 4) 31.260806
+||AT|| (192, 1, 4) 26.906339
+||AT|| (8, 2, 4) 20.874431
+||AT|| (16, 2, 4) 15.643658
+||AT|| (24, 2, 4) 13.944675
+||AT|| (32, 2, 4) 13.093719
+||AT|| (48, 2, 4) 20.497107
+||AT|| (64, 2, 4) 13.224936
+||AT|| (96, 2, 4) 17.922888
+||AT|| (16, 3, 4) 13.720206
+||AT|| (32, 3, 4) 17.031061
+||AT|| (48, 3, 4) 18.776973
+||AT|| (64, 3, 4) 14.837000
+||AT|| (4, 4, 4) 20.930441
+||AT|| (8, 4, 4) 13.635814
+||AT|| (12, 4, 4) 11.688733
+||AT|| (16, 4, 4) 10.920819
+||AT|| (24, 4, 4) 16.342194
+||AT|| (32, 4, 4) 9.172773
+||AT|| (48, 4, 4) 12.006290
+||AT|| (64, 4, 4) 9.555491
+||AT|| (8, 6, 4) 11.838805
+||AT|| (16, 6, 4) 14.009946
+||AT|| (24, 6, 4) 15.767990
+||AT|| (32, 6, 4) 11.962204
+||AT|| (8, 8, 4) 10.870504
+||AT|| (12, 8, 4) 14.054063
+||AT|| (16, 8, 4) 9.180420
+||AT|| (24, 8, 4) 12.075428
+||AT|| (32, 8, 4) 9.571875
+||AT|| (12, 12, 4) 16.115524
+||AT|| (16, 12, 4) 12.592288
+||AT|| (16, 16, 4) 8.538182
+||AT|| (32, 1, 6) 22.281207
+||AT|| (64, 1, 6) 31.055136
+||AT|| (96, 1, 6) 35.166977
+||AT|| (16, 2, 6) 15.828827
+||AT|| (32, 2, 6) 20.358690
+||AT|| (48, 2, 6) 22.745555
+||AT|| (64, 2, 6) 17.869820
+||AT|| (32, 3, 6) 19.127831
+||AT|| (8, 4, 6) 13.825711
+||AT|| (16, 4, 6) 16.656648
+||AT|| (24, 4, 6) 18.512059
+||AT|| (32, 4, 6) 11.979228
+||AT|| (16, 6, 6) 15.748882
+||AT|| (8, 8, 6) 17.064755
+||AT|| (12, 8, 6) 16.108670
+||AT|| (16, 8, 6) 12.447163
+||AT|| (8, 1, 8) 51.388898
+||AT|| (16, 1, 8) 29.975836
+||AT|| (24, 1, 8) 26.833957
+||AT|| (32, 1, 8) 27.484238
+||AT|| (48, 1, 8) 31.295926
+||AT|| (64, 1, 8) 19.845032
+||AT|| (96, 1, 8) 26.670673
+||AT|| (8, 2, 8) 17.915126
+||AT|| (12, 2, 8) 15.761122
+||AT|| (16, 2, 8) 14.517644
+||AT|| (24, 2, 8) 20.291629
+||AT|| (32, 2, 8) 13.289034
+||AT|| (48, 2, 8) 17.560634
+||AT|| (64, 2, 8) 13.939737
+||AT|| (8, 3, 8) 15.850702
+||AT|| (16, 3, 8) 19.428566
+||AT|| (24, 3, 8) 19.446959
+||AT|| (32, 3, 8) 14.724133
+||AT|| (8, 4, 8) 12.933940
+||AT|| (12, 4, 8) 16.853824
+||AT|| (16, 4, 8) 10.946462
+||AT|| (24, 4, 8) 14.244969
+||AT|| (32, 4, 8) 9.501891
+||AT|| (8, 6, 8) 17.184138
+||AT|| (12, 6, 8) 16.108128
+||AT|| (16, 6, 8) 12.161371
+||AT|| (8, 8, 8) 10.922545
+||AT|| (12, 8, 8) 12.409051
+||AT|| (16, 8, 8) 9.872433
+||AT|| (16, 1, 12) 28.824091
+||AT|| (32, 1, 12) 33.023065
+||AT|| (48, 1, 12) 35.584833
+||AT|| (64, 1, 12) 26.807480
+||AT|| (16, 2, 12) 22.727812
+||AT|| (24, 2, 12) 23.388832
+||AT|| (32, 2, 12) 17.817616
+||AT|| (16, 3, 12) 22.425037
+||AT|| (12, 4, 12) 19.570023
+||AT|| (16, 4, 12) 14.639337
+||AT|| (16, 1, 16) 30.209155
+||AT|| (24, 1, 16) 33.159964
+||AT|| (32, 1, 16) 42.149829
+||AT|| (48, 1, 16) 26.831070
+||AT|| (64, 1, 16) 20.725967
+||AT|| (16, 2, 16) 14.853897
+||AT|| (24, 2, 16) 17.770187
+||AT|| (32, 2, 16) 13.954982
+||AT|| (16, 3, 16) 17.134093
+||AT|| (16, 4, 16) 11.653533
+||AT|| (24, 1, 24) 38.339603
+||AT|| (32, 1, 24) 28.690564
+Integration times:
+	min: 111.202
+	median: 111.398
+	90th percentile: 111.494
+	max: 129.82

@@ -1,0 +1,195 @@
+WARNING: Passed an invalid value -nan to device constant AC_dt. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_dsmin. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_xlen. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_ylen. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_zlen. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_xorig. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_yorig. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_zorig. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_unit_magnetic. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_star_pos_x. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_star_pos_y. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_star_pos_z. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_M_star. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_M_sink. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_M_sink_init. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_cv_sound. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_trans. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_boundary_derivative. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_chi_t. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_chi_t_prof1. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_angl_uu. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_lnrho_edge. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_lnrho_out. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_ampl_aa. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_init_k_wave. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_init_sigma_hel. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_switch_forcing. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_forcing_phase. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_k_forcex. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_k_forcey. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_k_forcez. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_kaver. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_ff_hel_rex. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_ff_hel_rey. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_ff_hel_rez. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_ff_hel_imx. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_ff_hel_imy. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_ff_hel_imz. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_G_const. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_GM_star. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_unit_mass. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_sq2GM_star. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_cs2_sound. Skipping.
+WARNING: Passed an invalid value -nan to device constant AC_current_time. Skipping.
+Num fields 10
+Searching field VTXBUF_LNRHO. Got 0 (VTXBUF_LNRHO)
+Searching field VTXBUF_UUX. Got 1 (VTXBUF_UUX)
+Searching field VTXBUF_UUY. Got 2 (VTXBUF_UUY)
+Searching field VTXBUF_UUZ. Got 3 (VTXBUF_UUZ)
+Searching field VTXBUF_AX. Got 4 (VTXBUF_AX)
+Searching field VTXBUF_AY. Got 5 (VTXBUF_AY)
+Searching field VTXBUF_AZ. Got 6 (VTXBUF_AZ)
+Searching field BFIELDX. Got 7 (BFIELDX)
+Searching field BFIELDY. Got 8 (BFIELDY)
+Searching field BFIELDZ. Got 9 (BFIELDZ)
+Config file path: /home/username/temp_astaroth/xxauvqwavrthizulyprnbfrs/config/astaroth.conf
+--------------------------------------------------
+Device Number: 0
+  PCI bus ID: 0000:41:00.0
+    Device name: NVIDIA A100-SXM4-80GB
+    Compute capability: 8.0
+  Compute
+    Clock rate (GHz): 1.41
+    Stream processors: 108
+    SP to DP flops performance ratio: 2:1
+    Compute mode: 0
+  Global memory
+    Memory Clock Rate (MHz): 1593
+    Memory Bus Width (bits): 5120
+    Peak Memory Bandwidth (GiB/s): 1899.003983
+    ECC enabled: 1
+    Total global mem: 79.18 GiB
+    Gmem used (GiB): 1.84
+    Gmem memory free (GiB): 77.34
+    Gmem memory total (GiB): 79.18
+  Caches
+    Local L1 cache supported: 1
+    Global L1 cache supported: 1
+    L2 size: 40960 KiB
+  Other
+    Warp size: 32
+    Stream priorities supported: 1
+    AcReal precision: 64 bits
+--------------------------------------------------
+---Test: Load/Store---
+Errors at the point of the maximum absolute error:
+VTXBUF_LNRHO   ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [1.72e-08, 1]
+VTXBUF_UUX     ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [4.42e-08, 1]
+VTXBUF_UUY     ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [3.76e-07, 1]
+VTXBUF_UUZ     ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [1.47e-07, 1]
+VTXBUF_AX      ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [3.06e-07, 1]
+VTXBUF_AY      ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [4.61e-07, 1]
+VTXBUF_AZ      ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [1.06e-07, 1]
+BFIELDX        ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [2.66e-07, 1]
+BFIELDY        ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [1.72e-07, 1]
+BFIELDZ        ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [1.04e-07, 1]
+---Test: Boundconds---
+Errors at the point of the maximum absolute error:
+VTXBUF_LNRHO   ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [1.72e-08, 1]
+VTXBUF_UUX     ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [4.42e-08, 1]
+VTXBUF_UUY     ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [3.76e-07, 1]
+VTXBUF_UUZ     ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [1.47e-07, 1]
+VTXBUF_AX      ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [3.06e-07, 1]
+VTXBUF_AY      ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [4.61e-07, 1]
+VTXBUF_AZ      ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [1.06e-07, 1]
+BFIELDX        ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [2.66e-07, 1]
+BFIELDY        ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [1.72e-07, 1]
+BFIELDZ        ... [32mOK! [0m | 0 (abs), 0 (ulps), 0 (rel). Range: [1.04e-07, 1]
+max_threads_per_block = 96
+||AT|| (32, 1, 1) 55.523328
+||AT|| (64, 1, 1) 53.447473
+||AT|| (96, 1, 1) 45.197720
+||AT|| (16, 2, 1) 38.435022
+||AT|| (32, 2, 1) 36.501913
+||AT|| (48, 2, 1) 32.024167
+||AT|| (32, 3, 1) 27.715994
+||AT|| (8, 4, 1) 33.694107
+||AT|| (16, 4, 1) 30.042520
+||AT|| (24, 4, 1) 27.185562
+||AT|| (16, 6, 1) 23.740825
+||AT|| (8, 8, 1) 30.109082
+||AT|| (12, 8, 1) 23.640678
+||AT|| (16, 1, 2) 57.592834
+||AT|| (32, 1, 2) 57.343793
+||AT|| (48, 1, 2) 44.752487
+||AT|| (8, 2, 2) 44.107162
+||AT|| (16, 2, 2) 40.373248
+||AT|| (24, 2, 2) 31.927295
+||AT|| (16, 3, 2) 30.927258
+||AT|| (4, 4, 2) 44.818842
+||AT|| (8, 4, 2) 37.136383
+||AT|| (12, 4, 2) 27.995749
+||AT|| (8, 6, 2) 28.383847
+||AT|| (32, 1, 3) 49.887640
+||AT|| (16, 2, 3) 36.356915
+||AT|| (8, 4, 3) 33.550336
+||AT|| (8, 1, 4) 66.256281
+||AT|| (16, 1, 4) 57.609424
+||AT|| (24, 1, 4) 49.002905
+||AT|| (4, 2, 4) 55.260162
+||AT|| (8, 2, 4) 44.475391
+||AT|| (12, 2, 4) 37.081293
+||AT|| (8, 3, 4) 37.508505
+||AT|| (4, 4, 4) 45.312000
+||AT|| (6, 4, 4) 32.888013
+||AT|| (16, 1, 6) 51.284375
+||AT|| (8, 2, 6) 40.378574
+||AT|| (8, 1, 8) 65.326080
+||AT|| (12, 1, 8) 53.246155
+max_threads_per_block = 96
+||AT|| (32, 1, 1) 27.287961
+||AT|| (64, 1, 1) 22.000026
+||AT|| (96, 1, 1) 21.729689
+||AT|| (16, 2, 1) 19.095961
+||AT|| (32, 2, 1) 15.037645
+||AT|| (48, 2, 1) 14.781030
+||AT|| (32, 3, 1) 12.485427
+||AT|| (8, 4, 1) 16.227122
+||AT|| (16, 4, 1) 12.302541
+||AT|| (24, 4, 1) 11.915469
+||AT|| (16, 6, 1) 10.570956
+||AT|| (8, 8, 1) 12.754330
+||AT|| (12, 8, 1) 10.416743
+||AT|| (16, 1, 2) 31.824283
+||AT|| (32, 1, 2) 22.699008
+||AT|| (48, 1, 2) 22.341837
+||AT|| (8, 2, 2) 22.558516
+||AT|| (16, 2, 2) 16.370892
+||AT|| (24, 2, 2) 15.463219
+||AT|| (16, 3, 2) 14.937292
+||AT|| (4, 4, 2) 23.116800
+||AT|| (8, 4, 2) 14.597734
+||AT|| (12, 4, 2) 13.281689
+||AT|| (8, 6, 2) 13.570253
+||AT|| (32, 1, 3) 22.995354
+||AT|| (16, 2, 3) 16.926924
+||AT|| (8, 4, 3) 15.247975
+||AT|| (8, 1, 4) 36.188568
+||AT|| (16, 1, 4) 24.270644
+||AT|| (24, 1, 4) 22.972826
+||AT|| (4, 2, 4) 27.611136
+||AT|| (8, 2, 4) 18.607513
+||AT|| (12, 2, 4) 16.918118
+||AT|| (8, 3, 4) 17.181082
+||AT|| (4, 4, 4) 19.117261
+||AT|| (6, 4, 4) 15.001190
+||AT|| (16, 1, 6) 24.113358
+||AT|| (8, 2, 6) 18.620825
+||AT|| (8, 1, 8) 27.996774
+||AT|| (12, 1, 8) 24.991130
+Integration times:
+	min: 33.9514
+	median: 34.053
+	90th percentile: 34.075
+	max: 34.1174
